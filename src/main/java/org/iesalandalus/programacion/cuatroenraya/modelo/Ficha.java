@@ -1,5 +1,11 @@
 package org.iesalandalus.programacion.cuatroenraya.modelo;
 
 public enum Ficha {
-    asdfkhasdkj
+    AZUL,
+    VERDE;
+
+    @Override
+    public String toString() {
+        return String.valueOf(name().charAt(0));
+    }
 }
